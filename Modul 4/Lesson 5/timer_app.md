@@ -1,6 +1,6 @@
 #Timer App
 
-####Step 1: Project Structure
+#### Step 1: Project Structure
 ```plaintext
 lib/
 │
@@ -25,7 +25,7 @@ lib/
 
 ```
 
-####Step 2: Write Configuration Files
+#### Step 2: Write Configuration Files
 
 lib/config/colors.dart:
 ```dart
@@ -58,7 +58,7 @@ enum TimerState {
 }
 ```
 
-####Step 3: Write Components
+#### Step 3: Write Components
 
 lib/component/buttons/button.dart:
 ```dart
@@ -130,7 +130,7 @@ class TimerWidget extends StatelessWidget {
 }
 ```
 
-####Step 4: Write Root Widget:
+#### Step 4: Write Root Widget:
 
 lib/main.dart:
 ```dart
@@ -160,7 +160,7 @@ class TimerApp extends StatelessWidget {
 }
 ```
 
-####Step 5: Write Code For UI and Business Logic:
+#### Step 5: Write Code For UI and Business Logic:
 
 lib/screen/timer/timer_mixin.dart:
 ```dart
