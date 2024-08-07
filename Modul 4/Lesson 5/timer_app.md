@@ -1,4 +1,4 @@
-#Timer App
+# Timer App
 
 #### Step 1: Project Structure
 ```plaintext
