@@ -54,12 +54,9 @@ class _HomeState extends State<Home> {
   void init() {
     _listController.addListener(() {
       if (_listController.visibleRange != null) {
-        debugPrint("_listController visibleRange: ${_listController.visibleRange}");
         if ((_listController.visibleRange!.$1 != currentIndex ||
             _listController.visibleRange!.$2 != currentIndex) &&
             (_listController.visibleRange!.$1 == _listController.visibleRange!.$2)) {
-          debugPrint("work");
-
           if(mounted) {
             WidgetsBinding.instance
                 .addPostFrameCallback((_) => setState(() {
