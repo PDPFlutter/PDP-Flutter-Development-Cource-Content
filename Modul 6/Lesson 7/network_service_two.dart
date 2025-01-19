@@ -7,7 +7,7 @@ sealed class Network {
     "Content-Type": "application/json; charset=UTF-8",
   };
 
-  Future<String?> request({
+  static Future<String?> request({
     required String api,
     String? id,
     RequestMethod method = RequestMethod.get,
