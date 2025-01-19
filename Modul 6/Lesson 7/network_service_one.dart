@@ -1,5 +1,5 @@
 sealed class Network {
-  static const String baseUrl = "https://jsonplaceholder.typicode.com";
+  static const String baseUrl = "jsonplaceholder.typicode.com";
 
   static const apiPost = "/posts";
 
