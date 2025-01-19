@@ -1,7 +1,7 @@
 enum RequestMethod { get, post, put, patch, delete }
 
 sealed class Network {
-  static const String baseUrl = "https://jsonplaceholder.typicode.com";
+  static const String baseUrl = "jsonplaceholder.typicode.com";
   static const apiPost = "/posts";
 
   static const Map<String, String> headers = {
